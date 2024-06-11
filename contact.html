@@ -20,15 +20,32 @@
     </header>
     <section id="contact">
         <h2>Contact me!</h2>
-        <article class="blog-post">
-        <p>Hi! I am Brianna Mattson, I am a senior at Michigan State University studying Information Science with a Data Science Minor. I currently live in Eugene, Oregon (Go Ducks!) with my parents when I am not at school but am originally from Richmond, Virginia. I have two brothers, one older and one younger. Both my brothers are James Madison Dukes and the older now lives in Manhattan to live out his "finance bros" dream. My younger brother is a sophomore at James Madison University studying Biology wiht a Data Science focus. I have a 8 month old puppy, Teddy, who lives with me at school. She is a Jack Russell Terrier and my child. I actually put away 25% of every paycheck for Teddy as dogs are very expensive!</p>
-        <p>Fun Facts:</p>
-        <ul>
-            <li>I danced for 16 years</li>
-            <li>I used to be a sorority president</li>
-            <li>I have had 2 surgeries on my ankle and knee</li>
-        </ul>
-            <p><img alt="Me" src="picture_of_me.jpg" /></p>
-
+    </section>
+     <section id="form">
+        <form>
+            <!-- with the help of ChatGPT I was able to see how the form would be set up. Prompt: "set up of multiple line form html" -->
+            <label>Name:
+                <input type="text">
+            </label>
+            <br>
+            <label>Email:
+                <input type="text">
+            </label>
+            <br>
+            <label>Reason for contact:
+                <select name="reason">
+                    <option value="saying_hi">Saying Hi</option>
+                    <option value="contractor">Looking for a Contractor</option>
+                    <option value="interview">Interested in an Interview</option>
+                </select>
+            </label>
+            <br>
+            <label>Comment:
+                <input type="text">
+            </label>
+            <br>
+            <button>Submit</button>
+        </form>
+    </section>
 </body>
 </html>
