@@ -117,5 +117,6 @@ table th, table td {
 }
 
 #about img {
-    max-width: 100px;
+    max-width: 300px;
+    float: left;
 }
