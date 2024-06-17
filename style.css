@@ -119,4 +119,5 @@ table th, table td {
 #about img {
     max-width: 300px;
     float: left;
+    margin: 10px 20px 10px 0;
 }
